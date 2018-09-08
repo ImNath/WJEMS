@@ -1,0 +1,61 @@
+/*body {
+    background-color: #F5F5F5;
+}*/
+
+#assistHead {
+    margin-bottom: .5em;
+}
+
+h3 {
+    color: darkred;
+}
+
+a {
+    color: darkred;
+}
+
+a:visited: {
+    color: darkred;
+}
+
+body {}
+
+dt {
+    color: black;
+}
+
+.mainTitle {
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+span {
+    background-color: gray;
+    color: white;
+}
+
+#mainImg {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+/* Extra small devices (phones, up to 480px) */
+
+@media screen and (max-width: 767px) {
+    .mainTitle {
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* tablets/desktops and up ----------- */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* large desktops and up ----------- */
+
+@media screen and (min-width: 1200px) {}
