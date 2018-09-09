@@ -27,6 +27,8 @@ dt {
 .mainTitle {
     margin-top: .5em;
     margin-bottom: 1em;
+
+
 }
 
 span {
@@ -47,6 +49,10 @@ span {
         margin-bottom: .5em;
     }
 }
+
+/*.h3nospace {
+    padding-left: 0px;
+}*/
 
 /* Small devices (tablets, 768px and up) */
 
