@@ -14,66 +14,149 @@
 
 <body id="home">
 
-
-
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">W&amp;JEMS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">W&amp;JEMS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    </nav>
-    <div class="collapse" id="navbarToggle">
-        <div class="bg-light p-4">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href=index.html>Home</a></li>
+        </nav>
+        <div class="collapse" id="navbarToggle">
+            <div class="bg-light p-4">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href=index.html>Home</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="pages/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">About</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="alert alert-danger alert-dismissible">
-        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-        <strong>Need assistance?</strong> <a href="pages/contact.html">Click Here for help!</a>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <!--<h1 class="wrap mainTitle">Washington &amp; Jefferson College Emergency Medical Services</h1>
-                <img src="small.jpg" id="mainImg" srcset="../images/untitled.jpg 1000w, large.jpg 2000w" alt="yah">*/-->
-                image here
-            </div>
-
-        </div>
-        <div class="row">
-
-
-            <div class="col-xs-12 col-md-6">
-                <h3>What is W&amp;JEMS?</h3>
-                <p class="text-left">Washington &amp; Jefferson College Emergency Medical Services (W&amp;JEMS) is a licensed Quick Response Service which provides emergency meidcal services, education, and outreach.</p>
-
-            </div>
-
-            <div class="col-xs-12 col-md-6">
-                <h3>Who Are We?</h3>
-                <p class="text-left">We are a group of student volunteer EMTs (Emergency Medical Technicians) and EMRs (Emergency Medical Responders) who respond to on-campus medical emergencies.&nbsp;<a href="pages/about.html">Learn More!</a></p>
-
-            </div>
-
-            <div class="col-xs-12 col-md-6">
-                <h3 id="assistHead">Need Assistance?</h3>
-                <a href="pages/contact.html" class="btn btn-danger text-center" role="button">Click here for help!</a>
-
-
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </div>
+
+        <div class="alert alert-danger alert-dismissible" id="helpMessage">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Need assistance?</strong> <a href="pages/contact.html">Click Here for help!</a>
+        </div>
+    </header>
+
+    <body>
+        <div class="container">
+
+            <div class="row d-block d-sm-none">
+                <div class="col-12">
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/768x768"class="img-fluid"></a></div>
+            </div>
+
+
+
+
+            <div class="row	d-block d-sm-none">
+                <div class="col-12 text-center">
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What is W&amp;JEMS?
+        </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p class="text-left">Washington &amp; Jefferson College Emergency Medical Services (W&amp;JEMS) is a licensed Quick Response Service which provides emergency meidcal services, education, and outreach.
+                                        <br>
+                                        <a class="dionLink" href="pages/contact.html">Click here to learn more!</a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Who Are We?
+        </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p class="text-left">We are a group of student volunteer EMTs (Emergency Medical Technicians) and EMRs (Emergency Medical Responders) who respond to on-campus medical emergencies.
+                                        <br><a href="pages/about.html">Click here to learn more!</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Need Assistance?
+        </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p class="text-left">If you need assistance, click the button below to find our contact information.</p>
+                                    <a href="pages/contact.html" class="btn btn-danger text-center" role="button">Click here for help!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          Want to Volunteer?
+        </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p class="text-left">We are always looking for more volunteers! If you would like to volunteer, contact our chief Timothy Young at <a href="mailto:yeungt@jay.washjeff.edu">yeungt@jay.washjeff.edu</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row d-none d-sm-block">
+
+
+                <div class="col-xs-12 col-md-6">
+                    <h3>What is W&amp;JEMS?</h3>
+                    <p class="text-left">Washington &amp; Jefferson College Emergency Medical Services (W&amp;JEMS) is a licensed Quick Response Service which provides emergency meidcal services, education, and outreach.</p>
+                    <a href="pages/contact.html" class="btn btn-danger text-center" role="button">Click here to learn more!</a>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <h3>Who Are We?</h3>
+                    <p class="text-left">We are a group of student volunteer EMTs (Emergency Medical Technicians) and EMRs (Emergency Medical Responders) who respond to on-campus medical emergencies.&nbsp;<a href="pages/about.html">Learn More!</a></p>
+                    <a href="pages/contact.html" class="btn btn-danger text-center" role="button">Contact us!</a>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <h3 id="assistHead">Need Assistance?</h3>
+                    <p class="text-left">If you need assistance, click the button below to find our contact information.</p><a href="pages/contact.html" class="btn btn-danger text-center" role="button">Click here for help!</a>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </body>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <script src="js/bootstrap.min.js"></script>
 
 </body>
+    
 
 </html>
