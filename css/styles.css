@@ -1,6 +1,6 @@
-/*body {
+html {
     background-color: #F5F5F5;
-}*/
+}
 
 #assistHead {
     margin-bottom: .5em;
@@ -19,3 +19,41 @@ a:visited: {
 }
 
 #helpMessage {}
+
+.redButton {
+   color: #721c24;
+    
+}
+
+.redButton:hover {
+    color: darkred;
+
+}
+
+dl {text-align: left;}
+
+helpBig{
+    text-align: right;
+}
+
+.bubbles{
+ 
+    margin-top: 10%;
+    
+}
+
+.customBreak{
+    
+    display: block;
+    margin-top: .75em;
+}
+
+.stronged{
+    font-weight: bold;
+  
+}
+
+footer{
+    margin-top: 10%;
+    
+}
