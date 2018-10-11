@@ -3,7 +3,7 @@ html {
 }
 
 #assistHead {
-    margin-bottom: .5em;
+    margin: 0px;
 }
 
 h3 {
@@ -37,9 +37,19 @@ helpBig{
 }
 
 .bubbles{
- 
+
     margin-top: 10%;
     
+}
+
+.bubbleHolder{
+    
+       max-height: 50em; 
+
+
+}
+bubblesimg{
+    max-height: 100%;
 }
 
 .customBreak{
@@ -53,7 +63,34 @@ helpBig{
   
 }
 
+#mobileTitle{
+    
+    padding-left: .5em;
+    
+}
+
+#webTitle{
+    
+    padding-left: 1%;
+    
+}
+
 footer{
     margin-top: 10%;
     
 }
+
+.mobileMainImg {
+    
+    height: 20em;
+    width: 100%;
+    margin-top: 1.5em;
+    overflow: hidden;
+    
+}
+
+.webTitleRight{
+    
+    padding-right: 1%;
+}
+
