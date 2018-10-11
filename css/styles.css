@@ -39,6 +39,11 @@ helpBig{
 .bubbles{
 
     margin-top: 10%;
+    border-bottom: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    padding-bottom: 7em;
+  
     
 }
 
@@ -47,9 +52,6 @@ helpBig{
        max-height: 50em; 
 
 
-}
-bubblesimg{
-    max-height: 100%;
 }
 
 .customBreak{
@@ -77,6 +79,7 @@ bubblesimg{
 
 footer{
     margin-top: 10%;
+    width: 100%;
     
 }
 
