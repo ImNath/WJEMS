@@ -30,11 +30,6 @@ a:visited: {
 
 }
 
-dl {text-align: left;}
-
-helpBig{
-    text-align: right;
-}
 
 .bubbles{
 
@@ -99,6 +94,20 @@ footer{
 .bubbles:hover{
     background-color: whitesmoke;
 }
-*{
-    max-width: 100%;
+
+header {
+    overflow: hidden !important;
+    max-width: 100% !important;
+}
+.jumbotron{
+    width: 100% !important;
+     overflow: hidden !important;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
 }
