@@ -89,15 +89,13 @@ footer{
     background-color: whitesmoke;
 }
 
-header {
-    overflow: hidden !important;
-    max-width: 100% !important;
-}
+
 .jumbotron{
     width: 100% !important;
      overflow: hidden !important;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100% !important;
     
 
 }
@@ -105,9 +103,17 @@ header {
 nav{
     
     width: 100% !important;
+    max-width: 100% !important;
+         overflow: hidden !important;
+
 }
 
 body {
     margin-left: auto;
     margin-right: auto;
+}
+
+*{
+         max-width: 100%;
+
 }
