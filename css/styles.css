@@ -1,6 +1,5 @@
 html {
     background-color: #F5F5F5;
-    width: 100%;
 }
 
 #assistHead {
@@ -48,10 +47,10 @@ helpBig{
 
 .col-4 > img {
     
+    max-height: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .bubbleHolder{
     
@@ -100,7 +99,6 @@ footer{
 .bubbles:hover{
     background-color: whitesmoke;
 }
-
 *{
     max-width: 100%;
 }
