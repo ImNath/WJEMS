@@ -1,5 +1,6 @@
 html {
     background-color: #F5F5F5;
+    width: 100%;
 }
 
 #assistHead {
@@ -39,13 +40,18 @@ helpBig{
 .bubbles{
 
     margin-top: 10%;
-    border-bottom: 1px;
-    border-bottom-color: gray;
-    border-bottom-style: solid;
-    padding-bottom: 7em;
+    border-radius: 4px;
+
   
     
 }
+
+.col-4 > img {
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .bubbleHolder{
     
@@ -65,21 +71,11 @@ helpBig{
   
 }
 
-#mobileTitle{
-    
-    padding-left: .5em;
-    
-}
-
-#webTitle{
-    
-    padding-left: 1%;
-    
-}
 
 footer{
     margin-top: 10%;
     width: 100%;
+    height: 15%;
     
 }
 
@@ -97,3 +93,14 @@ footer{
     padding-right: 1%;
 }
 
+.evenRow{
+    background-color: gainsboro;
+}
+
+.bubbles:hover{
+    background-color: whitesmoke;
+}
+
+*{
+    max-width: 100%;
+}
